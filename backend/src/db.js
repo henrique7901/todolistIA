@@ -8,7 +8,7 @@ export const pool = mysql.createPool({
   port: Number(DB_PORT) || 3306,
   user: DB_USER || 'root',
   password: DB_PASSWORD || '',
-  database: DB_NAME || 'todolist',
+  database: DB_NAME || '',
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
